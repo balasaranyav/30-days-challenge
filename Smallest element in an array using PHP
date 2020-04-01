@@ -1,0 +1,14 @@
+<?php  
+//Initialize array   
+$input = array(5,6,2,9,12);   
+   
+//Initialize temp_min with first element of array 
+$temp_min = $input[0];   
+for ($i = 1; $i < count($input); $i++) {   
+    //Comparing the elements of array with temp_min 
+   if($input[$i] < $temp_min)  
+       $temp_min = $input[$i];  
+}    
+print("The Smallest element in the given array is: " . $temp_min);  
+?>  
+  
