@@ -1,0 +1,12 @@
+#Initialize array   
+input= [8,5,9,2,4];   
+   
+#Initialize temp_min with first element of array
+  
+temp_min = input[0];  
+for i in range(1, len(input)):  
+    #Comparing the elements of array with temp_min   
+   if(input[i] < temp_min):  
+       temp_min = input[i];  
+   
+print("The Smallest element in the given array is:" + str(temp_min));  
